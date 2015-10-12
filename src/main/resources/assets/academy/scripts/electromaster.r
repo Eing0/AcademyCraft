@@ -98,9 +98,9 @@ ac {
             consumption(exp) { lerp(1200, 800, exp) }
             overload(exp) { 3 * lerp(120, 80, exp) }
             cooldown(exp) { lerp(300, 160, exp) }
-            damage(exp) { lerp(25, 45, exp) }
+            damage(exp) { lerp(40, 90, exp) }
 			# 方块破坏能量（最大可破坏的方块的硬度值的和）
-            energy(exp) { lerp(900, 2000, exp) }
+            energy(exp) { lerp(900, 1500, exp) }
             expincr { 0.005 }
         }
         
